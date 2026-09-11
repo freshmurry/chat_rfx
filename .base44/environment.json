@@ -5,15 +5,13 @@
   "secrets": [
     {
       "name": "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY",
-      "description": "Clerk publishable key (pk_test_... or pk_live_...) from your Clerk dashboard at https://dashboard.clerk.com",
-      "requiredAtBoot": true,
-      "generatedForDevelopment": true
+      "description": "Clerk publishable key (pk_test_... or pk_live_...) from https://dashboard.clerk.com/last-active?path=api-keys",
+      "requiredAtBoot": true
     },
     {
       "name": "CLERK_SECRET_KEY",
-      "description": "Clerk secret key (sk_test_... or sk_live_...) from your Clerk dashboard at https://dashboard.clerk.com",
-      "requiredAtBoot": true,
-      "generatedForDevelopment": true
+      "description": "Clerk secret key (sk_test_... or sk_live_...) from https://dashboard.clerk.com/last-active?path=api-keys",
+      "requiredAtBoot": true
     },
     {
       "name": "NEXT_PUBLIC_S3_BUCKET_NAME",
