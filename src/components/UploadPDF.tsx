@@ -1,8 +1,8 @@
 "use client";
 
 
-import { embedPDFToPinecone } from "@/actions/pinecone";
-import { generatePreSignedURL } from "@/actions/s3";
+import { embedPDFToPinecone } from "@/action/pinecone";
+import { generatePreSignedURL } from "@/action/s3";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,

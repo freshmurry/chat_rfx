@@ -1,7 +1,11 @@
 import { type ClassValue, clsx } from "clsx"
 import { twMerge } from "tailwind-merge"
 import { toast } from "react-toastify";
- 
+
+export function showToast(message: string) {
+  toast(message);
+}
+
 export function cn(...inputs: ClassValue[]): string {
   return twMerge(clsx(inputs))
 }
